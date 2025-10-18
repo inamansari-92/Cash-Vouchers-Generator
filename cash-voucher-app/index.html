@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Cash Voucher Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Daily Cash Voucher Generator</h1>
+
+  <div class="controls">
+    <button onclick="addVoucher()">Add Voucher</button>
+    <button onclick="exportJSON()">Export JSON</button>
+    <input type="file" accept=".json" onchange="importJSON(event)" />
+    <input type="number" id="printStart" placeholder="Start from #" min="1" />
+    <button onclick="printVouchers()">Print Vouchers</button>
+  </div>
+
+  <div id="voucherList"></div>
+
+  <div id="printArea"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
