@@ -60,7 +60,7 @@ The system includes:
 ## 💻 Installation
 
 ### Option 1: Direct Use
-1. Download the `index.html` file
+1. Download the `cash-voucher.html` file
 2. Open it in any modern web browser
 3. Start creating vouchers immediately
 
@@ -73,13 +73,13 @@ git clone https://github.com/inamansari-92/Cash-Vouchers-Generator.git
 cd Cash-Vouchers-Generator
 
 # Open in browser
-open index.html
+open cash-voucher.html
 ```
 
 ### Option 3: Deploy to Web Server
 ```bash
 # Upload the HTML file to your web server
-scp index.html user@yourserver:/var/www/html/
+scp cash-voucher.html user@yourserver:/var/www/html/
 
 # Access via browser
 https://yourdomain.com/index.html
